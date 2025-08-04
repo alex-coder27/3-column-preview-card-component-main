@@ -46,8 +46,8 @@
 }
 
 .card__icon {
-    width: 64px;
-    height: 40px;
+    width: var(--icon-width);
+    height: var(--icon-height);
 }
 
 .card__title {

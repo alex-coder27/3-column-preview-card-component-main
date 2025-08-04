@@ -21,4 +21,6 @@
     --button-padding-horizontal: calc(var(--size-base) * 1.933);
     --border-radius-card: 0.5rem;
     --border-radius-button: calc(var(--size-base) * 1.667);
+    --icon-width: calc(var(--size-base) * 4.267);
+    --icon-height: calc(var(--size-base) * 2.667);
 }
