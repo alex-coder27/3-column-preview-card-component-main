@@ -1,0 +1,24 @@
+:root {
+    --color-primary-1: hsl(31, 77%, 52%);
+    --color-primary-2: hsl(184, 100%, 22%); 
+    --color-primary-3: hsl(179, 100%, 13%);
+
+    --color-neutral-1: hsla(0, 0%, 100%, 0.75);
+    --color-neutral-2: hsl(0, 0%, 95%);
+
+    --font-family-lexend-deca: 'Lexend Deca';
+    --font-family-big-shoulders: 'Big Shoulders';
+
+    --font-weight-regular: 400;
+    --font-weight-bold: 700;
+
+    --size-base: 0.938rem;
+
+    --card-padding: calc(var(--size-base) * 3.267);
+    --card-gap: calc(var(--size-base) * 1.533);
+    --content-gap: calc(var(--size-base) * 1.733);
+    --button-padding-vertical: var(--size-base);
+    --button-padding-horizontal: calc(var(--size-base) * 1.933);
+    --border-radius-card: 0.5rem;
+    --border-radius-button: calc(var(--size-base) * 1.667);
+}

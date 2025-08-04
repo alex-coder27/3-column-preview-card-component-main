@@ -1,0 +1,76 @@
+.card {
+    width: calc(var(--size-base) * 21.767);
+    height: calc(var(--size-base) * 29.467);
+    padding: var(--card-padding);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--card-gap);
+}
+
+.card--sedan {
+    background-color: var(--color-primary-1);
+    border-top-left-radius: var(--border-radius-card);
+    border-top-right-radius: var(--border-radius-card);
+}
+
+
+.card--suv {
+    background-color: var(--color-primary-2);
+}
+
+
+.card--luxury {
+    background-color: var(--color-primary-3);
+    border-bottom-left-radius: var(--border-radius-card);
+    border-bottom-right-radius: var(--border-radius-card);
+}
+
+.card--sedan .card__button {
+    color: var(--color-primary-1);
+}
+
+.card--suv .card__button {
+    color: var(--color-primary-2);
+}
+
+.card--luxury .card__button {
+    color: var(--color-primary-3);
+}
+
+
+.card__content {
+    display: flex;
+    flex-direction: column;
+    gap: var(--content-gap);
+}
+
+.card__icon {
+    width: 64px;
+    height: 40px;
+}
+
+.card__title {
+    font-size: calc(var(--size-base) * 2.533);
+    font-family: var(--font-family-big-shoulders);
+    font-weight: var(--font-weight-bold);
+    text-transform: uppercase;
+}
+
+.card__description {
+    line-height: calc(var(--size-base) * 1.667);
+    color: var(--color-neutral-1);
+}
+
+.card__button {
+    background-color: var(--color-neutral-2);
+    padding: var(--button-padding-vertical) var(--button-padding-horizontal);
+    border-radius: var(--border-radius-button);
+}
+
+.card__button:hover,
+.card__button:focus {
+    background-color: transparent;
+    color: var(--color-neutral-2);
+    border: 0.125rem solid var(--color-neutral-2);
+}

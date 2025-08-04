@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,700&family=Lexend+Deca&display=swap');
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    color: var(--color-neutral-2);
+    background-color: var(--color-neutral-2);
+    font-weight: var(--font-weight-regular);
+    font-family: var(--font-family-lexend-deca);
+    font-size: var(--size-base);
+}
+
+.page-wrapper {
+    max-width: 90rem;
+    margin: 0 auto;
+}
