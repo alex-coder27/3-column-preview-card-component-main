@@ -23,4 +23,8 @@
     --border-radius-button: calc(var(--size-base) * 1.667);
     --icon-width: calc(var(--size-base) * 4.267);
     --icon-height: calc(var(--size-base) * 2.667);
+    
+    --card-width-md: calc(var(--size-base) * 20.467);
+    --card-height-md: calc(var(--size-base) * 33.333);
+    --card-gap-md: calc(var(--size-base) * 5.333);
 }

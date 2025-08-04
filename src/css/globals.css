@@ -10,6 +10,7 @@ body {
     font-weight: var(--font-weight-regular);
     font-family: var(--font-family-lexend-deca);
     font-size: var(--size-base);
+    padding: var(--size-base);
 }
 
 .page-wrapper {

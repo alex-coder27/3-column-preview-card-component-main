@@ -1,0 +1,23 @@
+@media (min-width: 47.25rem) {
+    .card-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .card {
+        width: var(--card-width-md);
+        height: var(--card-height-md);
+        gap: var(--card-gap-md);
+    }
+    
+    .card--sedan {
+        border-top-right-radius: 0;
+        border-bottom-left-radius: var(--border-radius-card);
+    }
+    
+    .card--luxury {
+        border-bottom-left-radius: 0;
+        border-top-right-radius: var(--border-radius-card);
+    }
+}

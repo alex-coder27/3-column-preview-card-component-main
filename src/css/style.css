@@ -48,6 +48,7 @@
 .card__icon {
     width: var(--icon-width);
     height: var(--icon-height);
+    object-fit: contain;
 }
 
 .card__title {
