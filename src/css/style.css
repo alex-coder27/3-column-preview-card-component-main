@@ -18,11 +18,9 @@
     border-top-right-radius: var(--border-radius-card);
 }
 
-
 .card--suv {
     background-color: var(--color-primary-2);
 }
-
 
 .card--luxury {
     background-color: var(--color-primary-3);
@@ -30,29 +28,10 @@
     border-bottom-right-radius: var(--border-radius-card);
 }
 
-.card--sedan .card__button {
-    color: var(--color-primary-1);
-}
-
-.card--suv .card__button {
-    color: var(--color-primary-2);
-}
-
-.card--luxury .card__button {
-    color: var(--color-primary-3);
-}
-
-
 .card__content {
     display: flex;
     flex-direction: column;
     gap: var(--content-gap);
-}
-
-.card__button {
-    padding: var(--button-padding-vertical) var(--button-padding-horizontal);
-    background-color: var(--color-neutral-2);
-    border-radius: var(--border-radius-button);
 }
 
 .card__icon {
@@ -71,6 +50,24 @@
 .card__description {
     line-height: calc(var(--size-base) * 1.667);
     color: var(--color-neutral-1);
+}
+
+.card__button {
+    padding: var(--button-padding-vertical) var(--button-padding-horizontal);
+    background-color: var(--color-neutral-2);
+    border-radius: var(--border-radius-button);
+}
+
+.card--sedan .card__button {
+    color: var(--color-primary-1);
+}
+
+.card--suv .card__button {
+    color: var(--color-primary-2);
+}
+
+.card--luxury .card__button {
+    color: var(--color-primary-3);
 }
 
 .card__button:hover,
