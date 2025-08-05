@@ -58,6 +58,13 @@
     border-radius: var(--border-radius-button);
 }
 
+.card__button:hover,
+.card__button:focus {
+    background-color: transparent;
+    color: var(--color-neutral-2);
+    border: 0.125rem solid var(--color-neutral-2);
+}
+
 .card--sedan .card__button {
     color: var(--color-primary-1);
 }
@@ -68,13 +75,6 @@
 
 .card--luxury .card__button {
     color: var(--color-primary-3);
-}
-
-.card__button:hover,
-.card__button:focus {
-    background-color: transparent;
-    color: var(--color-neutral-2);
-    border: 0.125rem solid var(--color-neutral-2);
 }
 
 .attribution {
