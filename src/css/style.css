@@ -49,6 +49,12 @@
     gap: var(--content-gap);
 }
 
+.card__button {
+    padding: var(--button-padding-vertical) var(--button-padding-horizontal);
+    background-color: var(--color-neutral-2);
+    border-radius: var(--border-radius-button);
+}
+
 .card__icon {
     width: var(--icon-width);
     height: var(--icon-height);
@@ -65,12 +71,6 @@
 .card__description {
     line-height: calc(var(--size-base) * 1.667);
     color: var(--color-neutral-1);
-}
-
-.card__button {
-    padding: var(--button-padding-vertical) var(--button-padding-horizontal);
-    background-color: var(--color-neutral-2);
-    border-radius: var(--border-radius-button);
 }
 
 .card__button:hover,
