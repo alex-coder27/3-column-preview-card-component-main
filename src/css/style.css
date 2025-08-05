@@ -1,3 +1,7 @@
+.card-container {
+    margin-block-end: var(--size-base);
+}
+
 .card {
     width: calc(var(--size-base) * 21.767);
     height: calc(var(--size-base) * 29.467);
@@ -74,4 +78,15 @@
     background-color: transparent;
     color: var(--color-neutral-2);
     border: 0.125rem solid var(--color-neutral-2);
+}
+
+.attribution {
+    text-align: center;
+    color: var(--color-neutral-3);
+    margin-block-start: var(--size-base);
+}
+
+.attribution a {
+    color: var(--color-link-footer);
+    text-decoration: underline;
 }

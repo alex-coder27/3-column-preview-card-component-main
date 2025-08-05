@@ -5,6 +5,8 @@
 
     --color-neutral-1: hsla(0, 0%, 100%, 0.75);
     --color-neutral-2: hsl(0, 0%, 95%);
+    --color-neutral-3: hsl(0, 27%, 6%);
+    --color-link-footer: hsl(228, 45%, 44%);
 
     --font-family-lexend-deca: 'Lexend Deca';
     --font-family-big-shoulders: 'Big Shoulders';
