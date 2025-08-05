@@ -25,7 +25,7 @@ Os designs para mobile e desktop estão na pasta `/design`. As imagens necessár
 ## Links
 
 -   **URL do Site ao Vivo:** [https://github.com/alex-coder27/3-column-preview-card-component-main]
--   **URL do Repositório:** [https://github.com/alex-coder27/3-column-preview-card-component-main]
+-   **URL do Repositório:** [https://alex-coder27.github.io/3-column-preview-card-component-main]
 
 ## Como Executar o Projeto
 
